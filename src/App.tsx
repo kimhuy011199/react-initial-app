@@ -1,7 +1,9 @@
 const App = () => {
+  const greeting = 'Hello world';
+
   return (
     <div>
-      <h1>Hello world</h1>
+      <h1>{greeting}</h1>
     </div>
   );
 };
