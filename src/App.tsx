@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
   console.log('show eslint error when use console.log()');
+  console.log('update new husky config');
 
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
         </a>
       </div>
       <h1>React Initial App</h1>
+      <p>Hello world</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

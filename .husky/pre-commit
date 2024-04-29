@@ -1,0 +1,3 @@
+echo "Start lint-staged"
+npx lint-staged
+echo "End lint-staged"
